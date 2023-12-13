@@ -17,3 +17,7 @@ var filter = function (arr, fun) {
 if (userInput !== null && userInput !== "") {
   //do something
 }
+
+if (userInput) {
+  //do something
+}
