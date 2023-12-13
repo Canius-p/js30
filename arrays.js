@@ -17,3 +17,11 @@ var map = function (arr, fn) {
   }
   return res
 }
+
+var map = function (arr, param) {
+  const res = new Array(arr.length) //dynamic arrays
+  for (const i in arr) {
+    res[i] = param(arr[i], Number(i))
+  }
+  return res
+}
