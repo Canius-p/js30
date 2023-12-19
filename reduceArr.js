@@ -4,6 +4,7 @@
 // }
 
 // nums.reduce(fn, 0)
+//arrays
 var reduce = function (nums, fun, init) {
   return nums.reduce(fn, init)
 }
